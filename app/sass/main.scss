@@ -1,0 +1,35 @@
+
+@mixin textHead($est){
+	font-family: Arial;
+	color:rgba(255, 255, 255,$est);
+	font:{
+		size:12px;
+		weight:550; 
+	}
+
+}
+$black:#000000;
+
+
+.header_top {
+	background-color: $black;
+	#left_nav ul li{	&:first-child a {
+		@include textHead(1);	
+	}		
+}
+ul li{
+	display: inline-block;
+	padding-right: 8px;
+	padding-top:5px; 
+	a {
+		@include textHead(0.8);
+		&:hover {
+			@include textHead(1);
+			text-decoration: none;
+
+		}
+
+	} 
+}
+}
+

@@ -1,0 +1,22 @@
+.header_top {
+  background-color: #000000; }
+  .header_top #left_nav ul li:first-child a {
+    font-family: Arial;
+    color: white;
+    font-size: 12px;
+    font-weight: 550; }
+  .header_top ul li {
+    display: inline-block;
+    padding-right: 8px;
+    padding-top: 5px; }
+    .header_top ul li a {
+      font-family: Arial;
+      color: rgba(255, 255, 255, 0.8);
+      font-size: 12px;
+      font-weight: 550; }
+      .header_top ul li a:hover {
+        font-family: Arial;
+        color: white;
+        font-size: 12px;
+        font-weight: 550;
+        text-decoration: none; }
