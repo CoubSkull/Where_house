@@ -1,3 +1,30 @@
+#block_1 {
+  background-image: url(../imgs/middle_1.jpg);
+  -webkit-background-size: 100% 100%;
+          background-size: 100%;
+  -webkit-background-size: cover;
+          background-size: cover;
+  padding-bottom: 20%;
+  background-position: 50% 50%; }
+
+#block_2 {
+  background-image: url(../imgs/middle_2.jpg);
+  -webkit-background-size: 100% 100%;
+          background-size: 100%;
+  -webkit-background-size: cover;
+          background-size: cover;
+  padding-bottom: 20%;
+  background-position: 50% 50%; }
+
+#block_3 {
+  background-image: url(../imgs/middle_3.jpg);
+  -webkit-background-size: 100% 100%;
+          background-size: 100%;
+  -webkit-background-size: cover;
+          background-size: cover;
+  padding-bottom: 20%;
+  background-position: 50% 50%; }
+
 .header_top {
   background-color: #000000; }
   .header_top #left_nav ul li:first-child a {
@@ -109,11 +136,21 @@ main .content_top .top_right ul {
 
 main .block_top {
   margin-top: 40px;
-  margin-bottom: 40px; }
-  main .block_top .back img {
-    width: 100%; }
-  main .block_top p:nth-child(2) {
+  margin-bottom: 40px;
+  margin-left: 10px;
+  text-align: left; }
+  main .block_top .back {
+    background-image: url(../imgs/msk.jpg);
+    -webkit-background-size: 100% 100%;
+            background-size: 100%;
+    -webkit-background-size: cover;
+            background-size: cover;
+    padding-bottom: 20%;
+    background-position: 50% 50%; }
+  main .block_top p {
     margin-top: 20px; }
+    main .block_top p:nth-child(2) {
+      margin-top: 20px; }
   main .block_top a {
     margin-left: 20px;
     text-decoration: none;
@@ -124,9 +161,38 @@ main .block_top {
             border-radius: 3px;
     font-weight: 600; }
 
+main .blocks_middle {
+  margin-top: 40px;
+  margin-left: 20px; }
+  main .blocks_middle .content_block img {
+    width: 100%; }
+  main .blocks_middle .block {
+    text-align: left;
+    margin-top: 40px; }
+    main .blocks_middle .block h4 {
+      font-weight: 600; }
+    main .blocks_middle .block section {
+      margin-top: 25%; }
+      main .blocks_middle .block section p {
+        text-align: left; }
+    main .blocks_middle .block ul {
+      padding: 0; }
+      main .blocks_middle .block ul li {
+        display: inline;
+        background-color: #3a3a43;
+        color: #fff;
+        font-size: 18px;
+        padding: 6px 6px;
+        margin-left: -2px;
+        -webkit-border-radius: 2px;
+                border-radius: 2px; }
+
 main .side {
   background: #ebebed;
   width: 250px;
   float: right;
   border: 1px solid #ccc;
   padding-bottom: 100%; }
+
+hr {
+  border: 1px solid #ccc; }

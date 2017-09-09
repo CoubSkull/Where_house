@@ -11,8 +11,17 @@
 $black:#000000;
 $grey:#3a3a43;
 $yellow:#ffcc00;
+	
+	@for $i from 1 through 3 {
+  #block_#{$i} {
+    background-image: url(../imgs/middle_#{$i}.jpg);
+    background-size:100%;
+    background-size:cover;
+   padding-bottom: 20%;
+   background-position: 50% 50% ;
 
-
+  }
+}
 
 .header_top {
 	background-color: $black;
@@ -123,7 +132,6 @@ main {
 			}
 		}
 		.top_right {
-
 			h4 {
 				font-weight:600;
 				margin-left:15%;
@@ -151,11 +159,17 @@ main {
 .block_top {
 	margin-top:40px;
 	margin-bottom:40px;
-	 .back img {
-	 	width:100%;
-
+	margin-left:10px;
+	text-align:left;
+	 .back {
+ background-image: url(../imgs/msk.jpg);
+    background-size:100%;
+    background-size:cover;
+   padding-bottom: 20%;
+   background-position: 50% 50% ;
 	 }
 	 p {
+	 		margin-top:20px;
 	 	&:nth-child(2) {
 	 		margin-top:20px;
 	 	}
@@ -170,7 +184,41 @@ main {
 	 	font-weight:600;
 	 }
 }
+.blocks_middle {
+	margin-top:40px;
+	margin-left:20px;
+	.content_block {
+		img {
+			width:100%;
+		}
+	}
+	.block {
+		text-align:left;
+		margin-top: 40px;
+		h4 {
+			font-weight:600;
+		}
+		section {
+			margin-top:25%;
+			p {
+				text-align:left;
+			}
+		}
+		ul {
+			padding:0;
+			li{
+ display:inline;
+background-color:$grey;
+color:#fff;
+font-size:18px;
+padding:6px 6px;
+margin-left:-2px;
+border-radius:2px;
 
+			}
+		}
+	}
+}
 
 	.side	{
 		background:#ebebed;
@@ -180,3 +228,7 @@ main {
 		padding-bottom:100%;
 	}
 }
+hr {
+		border: 1px solid #ccc;
+
+	}
