@@ -99,63 +99,84 @@ ul li{
 
 main {
 	.content {
-	margin-top: 30px;
-	background:#ebebed;
-	 border: 1px solid #ccc;
- margin-left: 40px;
-	nav { 
-		margin-top:10px;
-		ul li{
-			list-style: none;
-			display:inline;
+		margin-top: 30px;
+		background:#ebebed;
+		border: 1px solid #ccc;
+		margin-left: 40px;
+		nav { 
+			margin-top:10px;
+			ul li{
+				list-style: none;
+				display:inline;
+			}
 		}
 	}
-}
-.content_top {
-	  #date {
-	  	background-color:#ff5f47;
-      color:#fff;
-      padding:5px 10px;
-      border-radius: 2px;
-      cursor: pointer;
-      &:hover {
-      	text-decoration:none;
-      }
-	  }
-	  .top_right {
+	.content_top {
+		#date {
+			background-color:#ff5f47;
+			color:#fff;
+			padding:5px 10px;
+			border-radius: 2px;
+			cursor: pointer;
+			&:hover {
+				text-decoration:none;
+			}
+		}
+		.top_right {
 
-	h4 {
-		font-weight:600;
-margin-left:15%;
+			h4 {
+				font-weight:600;
+				margin-left:15%;
+			}
+			ul {
+
+				background-color:$grey;
+				width:125px;
+				padding: 0;
+				text-align: center;
+				border-radius:2px;
+				li {
+					display:inline;
+					list-style:none;
+					color:$yellow;
+					font-size: 18px;
+					line-height: 2;
+					padding-right:4px;
+					padding-left:4px;
+
+				}
+			}
+		}
 	}
+.block_top {
+	margin-top:40px;
+	margin-bottom:40px;
+	 .back img {
+	 	width:100%;
 
-	  	 ul {
-	  	
-             background-color:$grey;
-             width:125px;
-              padding: 0;
-              text-align: center;
-              border-radius:2px;
-	  	 li {
-	  	 	display:inline;
-	  	 	list-style:none;
-	  	 	color:$yellow;
-          font-size: 18px;
-          line-height: 2;
-          padding-right:4px;
-          padding-left:4px;
- 
-	  	 }
-	  }
-	  }
+	 }
+	 p {
+	 	&:nth-child(2) {
+	 		margin-top:20px;
+	 	}
+	 }
+	 a {
+	 	margin-left:20px;
+	 	text-decoration:none;
+	 	background-color:#62c741;
+	 	color:#fff;
+	 	padding:10px 10px;
+	 	border-radius:3px;
+	 	font-weight:600;
+	 }
 }
 
 
-.side	{
-background:#ebebed;
- width:250px;
- float: right;
-  border: 1px solid #ccc;
-  padding-bottom:100%;
+	.side	{
+		background:#ebebed;
+		width:250px;
+		float: right;
+		border: 1px solid #ccc;
+		padding-bottom:100%;
 	}
 }

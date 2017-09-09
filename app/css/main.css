@@ -107,6 +107,23 @@ main .content_top .top_right ul {
     padding-right: 4px;
     padding-left: 4px; }
 
+main .block_top {
+  margin-top: 40px;
+  margin-bottom: 40px; }
+  main .block_top .back img {
+    width: 100%; }
+  main .block_top p:nth-child(2) {
+    margin-top: 20px; }
+  main .block_top a {
+    margin-left: 20px;
+    text-decoration: none;
+    background-color: #62c741;
+    color: #fff;
+    padding: 10px 10px;
+    -webkit-border-radius: 3px;
+            border-radius: 3px;
+    font-weight: 600; }
+
 main .side {
   background: #ebebed;
   width: 250px;
