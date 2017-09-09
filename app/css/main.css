@@ -1,5 +1,5 @@
 #block_1 {
-  background-image: url(../imgs/middle_1.jpg);
+  background-image: url(../imgs/back_1.jpg);
   -webkit-background-size: 100% 100%;
           background-size: 100%;
   -webkit-background-size: cover;
@@ -8,7 +8,7 @@
   background-position: 50% 50%; }
 
 #block_2 {
-  background-image: url(../imgs/middle_2.jpg);
+  background-image: url(../imgs/back_2.jpg);
   -webkit-background-size: 100% 100%;
           background-size: 100%;
   -webkit-background-size: cover;
@@ -17,12 +17,30 @@
   background-position: 50% 50%; }
 
 #block_3 {
-  background-image: url(../imgs/middle_3.jpg);
+  background-image: url(../imgs/back_3.jpg);
   -webkit-background-size: 100% 100%;
           background-size: 100%;
   -webkit-background-size: cover;
           background-size: cover;
   padding-bottom: 20%;
+  background-position: 50% 50%; }
+
+#back_0 {
+  background-image: url(../imgs/back_0.jpg);
+  -webkit-background-size: 100% 100%;
+          background-size: 100%;
+  -webkit-background-size: cover;
+          background-size: cover;
+  padding-bottom: 60%;
+  background-position: 50% 50%; }
+
+#back_1 {
+  background-image: url(../imgs/back_1.jpg);
+  -webkit-background-size: 100% 100%;
+          background-size: 100%;
+  -webkit-background-size: cover;
+          background-size: cover;
+  padding-bottom: 60%;
   background-position: 50% 50%; }
 
 .header_top {
@@ -47,6 +65,8 @@
         font-size: 13px;
         font-weight: 550;
         text-decoration: none; }
+  .header_top #right_nav {
+    float: right; }
 
 .header_bottom {
   background-color: #3a3a43; }
@@ -140,7 +160,7 @@ main .block_top {
   margin-left: 10px;
   text-align: left; }
   main .block_top .back {
-    background-image: url(../imgs/msk.jpg);
+    background-image: url(../imgs/back_0.jpg);
     -webkit-background-size: 100% 100%;
             background-size: 100%;
     -webkit-background-size: cover;
@@ -187,12 +207,48 @@ main .blocks_middle {
         -webkit-border-radius: 2px;
                 border-radius: 2px; }
 
+main .blocks_bottom {
+  margin-top: 5%;
+  margin-bottom: 10%; }
+  main .blocks_bottom #back_one {
+    background-image: url(../imgs/bottom_1.jpeg);
+    -webkit-background-size: 150% 150%;
+            background-size: 150%;
+    -webkit-background-size: cover;
+            background-size: cover;
+    padding-bottom: 60%;
+    background-position: 50% 50%;
+    width: 100%;
+    text-align: center; }
+  main .blocks_bottom .blocks {
+    border: 2px solid #ccc;
+    cursor: pointer;
+    height: 400px;
+    margin-top: 20px; }
+    main .blocks_bottom .blocks:hover {
+      -webkit-box-shadow: 3px 9px 5px -2px rgba(0, 0, 0, 0.3);
+              box-shadow: 3px 9px 5px -2px rgba(0, 0, 0, 0.3); }
+  main .blocks_bottom h4 {
+    text-align: left;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-weight: 500; }
+  main .blocks_bottom a {
+    background-color: #ff5f47;
+    color: #fff;
+    padding: 5px 10px;
+    -webkit-border-radius: 2px;
+            border-radius: 2px;
+    cursor: pointer;
+    margin-left: 10%;
+    text-decoration: none; }
+
 main .side {
   background: #ebebed;
   width: 250px;
   float: right;
   border: 1px solid #ccc;
-  padding-bottom: 100%; }
+  padding-bottom: 160%; }
 
 hr {
   border: 1px solid #ccc; }
