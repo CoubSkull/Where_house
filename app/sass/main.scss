@@ -1,20 +1,21 @@
 
-@mixin textHead($est){
+@mixin textHead($est,$size){
 	font-family: Arial;
 	color:rgba(255, 255, 255,$est);
 	font:{
-		size:12px;
+		size:$size;
 		weight:550; 
 	}
 
 }
 $black:#000000;
-
+$grey:#3a3a43;
+$yellow:#ffcc00;
 
 .header_top {
 	background-color: $black;
 	#left_nav ul li{	&:first-child a {
-		@include textHead(1);	
+		@include textHead(1,13px);	
 	}		
 }
 ul li{
@@ -22,9 +23,9 @@ ul li{
 	padding-right: 8px;
 	padding-top:5px; 
 	a {
-		@include textHead(0.8);
+		@include textHead(0.8,13px);
 		&:hover {
-			@include textHead(1);
+			@include textHead(1,13px);
 			text-decoration: none;
 
 		}
@@ -32,4 +33,64 @@ ul li{
 	} 
 }
 }
+.header_bottom {
+	background-color: $grey;
 
+	nav #special:before{
+		content:"*";
+		background: url(http://static.gdeetotdom.ru/skin/ged6/img/ico/header-icons.png);
+		background-repeat: no-repeat;
+		padding:	15px 0 0 18px;
+		background-position: 0 100%;
+		background-size: 100px;
+	}
+
+	.logo img{
+		width: 100%;
+		padding-left: 50px;
+		padding-bottom: 10px;
+		padding-top:10px;
+	}
+
+	#bottom_nav {
+		ul {
+			margin-bottom: 0;
+			li {
+				display:inline-block;
+				padding-bottom: 15px;
+				padding-top:15px;  
+				padding-right:10px;
+				padding-left:10px;
+	&:nth-child(4) {
+					border-bottom: 2px solid $yellow;
+
+					a{
+						color:$yellow;
+					}
+				}
+				&:nth-child(3) {
+					a {
+						color:#ff7d41;
+					}
+				} 
+				&:hover {
+					border-bottom: 2px solid $yellow;
+				}
+				&:hover a {
+					color:$yellow;
+				}
+				a{
+					text-decoration:none;
+					@include textHead(1,16px);
+					font-weight: 500;
+				}
+			}
+		}
+ .Logotype {
+    	 fill: #fff;
+    	 &:hover {
+    	 	fill:#559cce;
+    	 }
+    }
+	}
+}

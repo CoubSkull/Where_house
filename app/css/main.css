@@ -3,7 +3,7 @@
   .header_top #left_nav ul li:first-child a {
     font-family: Arial;
     color: white;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 550; }
   .header_top ul li {
     display: inline-block;
@@ -12,11 +12,56 @@
     .header_top ul li a {
       font-family: Arial;
       color: rgba(255, 255, 255, 0.8);
-      font-size: 12px;
+      font-size: 13px;
       font-weight: 550; }
       .header_top ul li a:hover {
         font-family: Arial;
         color: white;
-        font-size: 12px;
+        font-size: 13px;
         font-weight: 550;
         text-decoration: none; }
+
+.header_bottom {
+  background-color: #3a3a43; }
+  .header_bottom nav #special:before {
+    content: "*";
+    background: url(http://static.gdeetotdom.ru/skin/ged6/img/ico/header-icons.png);
+    background-repeat: no-repeat;
+    padding: 15px 0 0 18px;
+    background-position: 0 100%;
+    -webkit-background-size: 100px 100px;
+            background-size: 100px; }
+  .header_bottom .logo img {
+    width: 100%;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px; }
+  .header_bottom #bottom_nav ul {
+    margin-bottom: 0; }
+    .header_bottom #bottom_nav ul li {
+      display: inline-block;
+      padding-bottom: 15px;
+      padding-top: 15px;
+      padding-right: 10px;
+      padding-left: 10px; }
+      .header_bottom #bottom_nav ul li:nth-child(4) {
+        border-bottom: 2px solid #ffcc00; }
+        .header_bottom #bottom_nav ul li:nth-child(4) a {
+          color: #ffcc00; }
+      .header_bottom #bottom_nav ul li:nth-child(3) a {
+        color: #ff7d41; }
+      .header_bottom #bottom_nav ul li:hover {
+        border-bottom: 2px solid #ffcc00; }
+      .header_bottom #bottom_nav ul li:hover a {
+        color: #ffcc00; }
+      .header_bottom #bottom_nav ul li a {
+        text-decoration: none;
+        font-family: Arial;
+        color: white;
+        font-size: 16px;
+        font-weight: 550;
+        font-weight: 500; }
+  .header_bottom #bottom_nav .Logotype {
+    fill: #fff; }
+    .header_bottom #bottom_nav .Logotype:hover {
+      fill: #559cce; }
