@@ -65,3 +65,51 @@
     fill: #fff; }
     .header_bottom #bottom_nav .Logotype:hover {
       fill: #559cce; }
+
+main .content {
+  margin-top: 30px;
+  background: #ebebed;
+  border: 1px solid #ccc;
+  margin-left: 40px; }
+  main .content nav {
+    margin-top: 10px; }
+    main .content nav ul li {
+      list-style: none;
+      display: inline; }
+
+main .content_top #date {
+  background-color: #ff5f47;
+  color: #fff;
+  padding: 5px 10px;
+  -webkit-border-radius: 2px;
+          border-radius: 2px;
+  cursor: pointer; }
+  main .content_top #date:hover {
+    text-decoration: none; }
+
+main .content_top .top_right h4 {
+  font-weight: 600;
+  margin-left: 15%; }
+
+main .content_top .top_right ul {
+  background-color: #3a3a43;
+  width: 125px;
+  padding: 0;
+  text-align: center;
+  -webkit-border-radius: 2px;
+          border-radius: 2px; }
+  main .content_top .top_right ul li {
+    display: inline;
+    list-style: none;
+    color: #ffcc00;
+    font-size: 18px;
+    line-height: 2;
+    padding-right: 4px;
+    padding-left: 4px; }
+
+main .side {
+  background: #ebebed;
+  width: 250px;
+  float: right;
+  border: 1px solid #ccc;
+  padding-bottom: 100%; }
