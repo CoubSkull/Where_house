@@ -1,0 +1,41 @@
+
+
+@media screen and (max-width: 1199px) {
+
+   .header_bottom #bottom_nav ul li { 
+      float:none;
+      text-align: left;
+      cursor: pointer;
+
+   }
+   .header_bottom #bottom_nav ul li:hover {
+      border-bottom:none;
+      background-color: #2c2c34;
+   }
+
+   .header_bottom #bottom_nav ul li:nth-child(4) {
+      border-bottom:none;
+   }
+
+   .header_bottom #bottom_nav  #logotype {
+      margin-left: 46%;
+   }    
+
+   main .blocks_bottom .blocks  {
+    height: 500px;
+ }
+
+}
+
+@media screen and (max-width: 430px) {
+   main .blocks_bottom .blocks  {
+    height: 400px;
+ }
+ main .block_top a  {
+    padding:10px 10px;
+    font-size:10px;
+    margin-left: 2400px;
+    width: 400px;
+ }
+
+}
